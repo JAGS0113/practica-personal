@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aura Design Lab - Firma de arquitectura, interiorismo de lujo y consultoría espacial B2B y B2C.">
+  <title>Aura Design Lab | Arquitectura e Interiorismo de Lujo</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVEGACIÓN ==================== -->
+  <header class="header">
+    <div class="header__container">
+      <a href="#inicio" class="header__logo">
+        <span class="logo__text">AURA</span> <small class="logo__sub">Design Lab</small>
+      </a>
+
+      <!-- Checkbox Hack para Menú Hambuguesa Móvil sin JavaScript -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir menú de navegación">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span class="hamburger"></span>
+      </label>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#inicio" class="nav__link">Inicio</a></li>
+          <li class="nav__item"><a href="#nosotros" class="nav__link">Nosotros</a></li>
+          <li class="nav__item"><a href="#servicios" class="nav__link">Servicios</a></li>
+          <li class="nav__item"><a href="#proyectos" class="nav__link">Proyectos</a></li>
+          <li class="nav__item"><a href="#contacto" class="nav__link nav__link--cta">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==================== CONTENIDO PRINCIPAL ==================== -->
+  <main>
+
+    <!-- 1. HERO SECTION -->
+    <section id="inicio" class="hero">
+      <div class="hero__content">
+        <span class="hero__tagline">Estudio de Arquitectura e Interiorismo</span>
+        <h1 class="hero__title">Esculpimos espacios que trascienden el tiempo</h1>
+        <p class="hero__description">
+          Diseño arquitectónico de vanguardia, remodelaciones de lujo y consultoría técnica personalizada para clientes residenciales y corporativos.
+        </p>
+        <div class="hero__actions">
+          <a href="#contacto" class="btn btn--primary">Agendar Consultoría</a>
+          <a href="#proyectos" class="btn btn--outline">Ver Portafolio</a>
+        </div>
+      </div>
+      <div class="hero__media">
+        <img src="/img/arquitectura.jpeg" alt="Fachada de residencia de lujo diseñada por Aura Design Lab" width="800" height="600" loading="eager">
+      </div>
+    </section>
+
+    <!-- 2. SOBRE NOSOTROS -->
+    <section id="nosotros" class="about">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-header__subtitle">Filosofía & Visión</span>
+          <h2 class="section-header__title">Excelencia espacial basada en la armonía material</h2>
+        </header>
+        <div class="about__grid">
+          <article class="about__card">
+            <h3>Innovación B2B & B2C</h3>
+            <p>Atendemos proyectos comerciales a gran escala y residencias exclusivas con un enfoque holístico de alto rendimiento.</p>
+          </article>
+          <article class="about__card">
+            <h3>Sostenibilidad Elegante</h3>
+            <p>Integramos materiales nobles con eficiencia energética sin comprometer la estética sofisticada.</p>
+          </article>
+          <article class="about__card">
+            <h3>Precisión Técnica</h3>
+            <p>Un equipo multidisciplinario que acompaña desde la primera idea conceptual hasta la ejecución de la obra.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. SERVICIOS PRINCIPALES -->
+    <section id="servicios" class="services">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-header__subtitle">Nuestra Expertise</span>
+          <h2 class="section-header__title">Servicios de Diseño & Construcción</h2>
+        </header>
+
+        <div class="services__grid">
+          <!-- Servicio 1: Arquitectura -->
+          <article class="service-card">
+            <div class="service-card__icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 10h6M9 14h6M9 18h6"/></svg>
+            </div>
+            <h3 class="service-card__title">Arquitectura Residencial y Comercial</h3>
+            <p class="service-card__text">Proyectos arquitectónicos integrales desde la concepción del máster plan hasta los detalles ejecutivos finales.</p>
+            <a href="#contacto" class="service-card__link">Consultar servicio &rarr;</a>
+          </article>
+
+          <!-- Servicio 2: Interiorismo -->
+          <article class="service-card">
+            <div class="service-card__icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3M3 11h18v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7zM12 11v9"/></svg>
+            </div>
+            <h3 class="service-card__title">Interiorismo & Remodelación de Lujo</h3>
+            <p class="service-card__text">Transformación de entornos interiores mediante iluminación arquitectónica, mobiliario a medida y acabados de alta gama.</p>
+            <a href="#contacto" class="service-card__link">Consultar servicio &rarr;</a>
+          </article>
+
+          <!-- Servicio 3: Consultoría -->
+          <article class="service-card">
+            <div class="service-card__icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+            <h3 class="service-card__title">Consultoría Arquitectónica</h3>
+            <p class="service-card__text">Asesoría especializada en viabilidad técnica, normativas urbanas, selección de materiales y gestión de costos de proyecto.</p>
+            <a href="#contacto" class="service-card__link">Consultar servicio &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. GALERÍA DE PROYECTOS / PORTAFOLIO -->
+    <section id="proyectos" class="portfolio">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-header__subtitle">Portafolio</span>
+          <h2 class="section-header__title">Proyectos Destacados</h2>
+        </header>
+
+        <div class="portfolio__grid">
+          <figure class="portfolio-item">
+            <img src="/img/Suite de Baño Principal.jpeg" alt="Villa Residencial Aura - Fachada y piscina" loading="lazy">
+            <figcaption class="portfolio-item__overlay">
+              <span class="portfolio-item__category">Arquitectura Residencial</span>
+              <h3 class="portfolio-item__title">Villa Solarium</h3>
+            </figcaption>
+          </figure>
+
+          <figure class="portfolio-item">
+            <img src="/img/Oficina Ejecutiva Showroom.jpeg" alt="Penthouse en zona financiera - Salón con acabados de mármol" loading="lazy">
+            <figcaption class="portfolio-item__overlay">
+              <span class="portfolio-item__category">Interiorismo de Lujo</span>
+              <h3 class="portfolio-item__title">Penthouse Lumina</h3>
+            </figcaption>
+          </figure>
+
+          <figure class="portfolio-item">
+            <img src="/img/Oficina Ejecutiva Showroom.jpeg" alt="Oficinas corporativas B2B con concepto biofílico" loading="lazy">
+            <figcaption class="portfolio-item__overlay">
+              <span class="portfolio-item__category">Espacios Corporativos</span>
+              <h3 class="portfolio-item__title">Oficinas HQ Nexus</h3>
+            </figcaption>
+          </figure>
+
+          <figure class="portfolio-item">
+            <img src="/img/Restaurante Boutique.jpeg" alt="Restaurante gastronómico con iluminación tenue y acabados en madera" loading="lazy">
+            <figcaption class="portfolio-item__overlay">
+              <span class="portfolio-item__category">Remodelación B2B</span>
+              <h3 class="portfolio-item__title">Restaurante Nébula</h3>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. FORMULARIO DE CONTACTO (VALIDACIÓN HTML5 PURA) -->
+    <section id="contacto" class="contact">
+      <div class="container">
+        <div class="contact__wrapper">
+          <div class="contact__info">
+            <span class="section-header__subtitle">Hablemos</span>
+            <h2>Inicie su próximo proyecto espacial</h2>
+            <p>Ya sea para una residencia privada o un desarrollo corporativo, nuestro equipo evaluará sus necesidades para ofrecer una propuesta a medida.</p>
+            
+            <address class="contact__details">
+              <p><strong>Ubicación:</strong> Av. del Diseño 450, Distrito de Arquitectura</p>
+              <p><strong>Teléfono:</strong> <a href="tel:+573000000000">+57 (300) 000-0000</a></p>
+              <p><strong>Email:</strong> <a href="mailto:contacto@auradesignlab.com">contacto@auradesignlab.com</a></p>
+            </address>
+          </div>
+
+          <form action="#" method="POST" class="contact__form">
+            <div class="form-group">
+              <label for="nombre">Nombre completo *</label>
+              <input type="text" id="nombre" name="nombre" required placeholder="Ej. Ana María Gómez">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Correo electrónico corporativo / personal *</label>
+              <input type="email" id="email" name="email" required placeholder="nombre@empresa.com">
+            </div>
+
+            <div class="form-group">
+              <label for="servicio">Servicio de interés *</label>
+              <select id="servicio" name="servicio" required>
+                <option value="" disabled selected>Seleccione una opción</option>
+                <option value="arquitectura">Diseño Arquitectónico</option>
+                <option value="interiorismo">Interiorismo & Remodelación</option>
+                <option value="consultoria">Consultoría Arquitectónica</option>
+                <option value="otro">Otro / Proyecto Mixto</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Detalles del proyecto *</label>
+              <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Describa la ubicación, escala y tiempos estimados de su proyecto..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full">Enviar Solicitud</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <a href="#inicio" class="footer__logo">AURA Design Lab</a>
+        <p>Soluciones arquitectónicas de precisión y diseño de espacios de lujo.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Navegación de pie de página">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__social">
+        <h4>Síguenos</h4>
+        <div class="social-links">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2026 Aura Design Lab. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
